@@ -1,0 +1,148 @@
+body {
+  background-color: white;
+  background-position: center center;
+  background-repeat: repeat-y;
+  background-size: cover;
+  background-attachment: fixed;
+  text-rendering: optimizeLegibility;
+  z-index: 1;
+}
+
+/*HEADER*/
+
+#header {
+  height: 50px;
+  border-bottom: 1px solid #1b1eba;
+}
+
+#header a {
+  color: #1b1eba;
+  text-decoration: none;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-size: 32px;
+  margin-left: 600px;
+  margin-right: 600px;
+}
+
+/* TITLE */
+#title {
+  height: 20px;
+  length: 200px;
+  position: absolute;
+  justify-content: center;
+  margin-top: 20px;
+
+}
+
+#title a {
+  color: #1b1eba;
+  text-decoration: none;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-size: 14px;
+  margin-left: 630px;
+  margin-right: 570px;
+}
+
+
+/*MENU*/
+
+#menu {
+  height: 800px;
+  width: 200px;
+  float:left;
+}
+
+#menu ul {
+  height: 300px;
+  width: 120px;
+  list-style-type: none;
+  margin-top: 200px;
+  margin-bottom: 400px;
+  padding-top: 20px;
+  border-top: 1px solid #1b1eba;
+  border-right: 1px solid #1b1eba;
+}
+
+#menu li {
+  margin-bottom: 30px;
+
+}
+
+#menu a {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-size: 12px;
+  color: #1b1eba;
+  text-decoration: none;
+}
+
+#menu a:hover {
+  text-shadow: 1px -1px #1b1eba;
+}
+
+/*GALLERY*/
+
+#portfolio {
+    width: 600px;
+    float: left;
+    margin: 5rem 10rem;
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    -webkit-column-gap: 1rem;
+    -moz-column-gap: 1rem;
+    column-gap: 1rem;
+    -webkit-column-width: 33.33333333333333%;
+    -moz-column-width: 33.33333333333333%;
+    column-width: 33.33333333333333%;
+}
+
+.tile img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+
+}
+
+
+::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+
+
+
+
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 800px) {
+  body {
+    font-size: 0.8em;
+  }
+
+  .row {
+    flex-wrap: wrap;
+  }
+
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  body {
+    font-size: 0.5em;
+  }
+
+  .row {
+    flex-wrap: wrap;
+  }
+
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
