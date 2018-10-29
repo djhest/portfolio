@@ -20,15 +20,15 @@ body {
   text-decoration: none;
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
   font-size: 32px;
-  margin-left: 500px;
-  margin-right: 500px;
+  margin-left: 600px;
+  margin-right: 600px;
 }
 
 /* TITLE */
 #title {
   height: 20px;
   length: 200px;
-  position: relative;
+  position: absolute;
   justify-content: center;
   margin-top: 20px;
 
@@ -39,7 +39,7 @@ body {
   text-decoration: none;
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
   font-size: 14px;
-  margin-left: 570px;
+  margin-left: 630px;
   margin-right: 570px;
 }
 
