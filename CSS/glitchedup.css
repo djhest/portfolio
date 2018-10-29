@@ -96,7 +96,7 @@ body {
     column-width: 33.33333333333333%;
 }
 
-.tile img {
+tile img {
     max-width: 100%;
     width: 100%;
     height: auto;
@@ -105,7 +105,7 @@ body {
 }
 
 
-::-moz-focus-inner {
+:-moz-focus-inner {
   border: 0;
   padding: 0;
 }
