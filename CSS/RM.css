@@ -28,7 +28,7 @@ body {
 #title {
   height: 20px;
   length: 200px;
-  position: absolute;
+  position: relative;
   justify-content: center;
   margin-top: 20px;
 
@@ -39,7 +39,7 @@ body {
   text-decoration: none;
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
   font-size: 14px;
-  margin-left: 630px;
+  margin-left: 570px;
   margin-right: 570px;
 }
 
