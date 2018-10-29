@@ -53,12 +53,13 @@ body {
 }
 
 #menu ul {
-  height: 250px;
+  height: 300px;
   width: 120px;
   list-style-type: none;
   margin-top: 200px;
   margin-bottom: 400px;
   padding-top: 20px;
+  border-top: 1px solid #1b1eba;
   border-right: 1px solid #1b1eba;
 }
 
